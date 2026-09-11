@@ -1,18 +1,13 @@
 import java.util.*;
-
-class stringcount {
+public class stringcount{
+    
     public static void main(String[] args) {
+   
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a mark : ");
+        int mark = sc.nextInt();
 
-        System.out.print("Enter a string: ");
-        String str = sc.nextLine();
-
-        String rev = "";
-
-        for (int i = str.length() - 1; i >= 0; i--) {
-            rev = rev + str.charAt(i);
-        }
-
-        System.out.println("Reverse = " + rev);
+        System.out.println("vyash mark is : " + mark);
+       
     }
-}
+}   
